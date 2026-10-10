@@ -19,7 +19,7 @@ export const siteConfig = {
 
   // PLACEHOLDER — replace with real contact details
   email: 'hello@usksoftwaresolutions.com',
-  phone: '+00 00000 00000',
+  phone: '+91 9529801391',
   address: 'Your Street Address, City, State, Country',
   locationShort: 'Your City, Country',
 

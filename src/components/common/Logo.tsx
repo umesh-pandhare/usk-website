@@ -7,18 +7,18 @@ interface LogoProps {
   onClick?: () => void;
 }
 
-/**
- * Text-based logo. To use an SVG later, drop the file in src/assets/logos and
- * replace the contents of <LogoMark /> with an <img> (or inline SVG).
- */
+/** Logo image lives in /public/L2.png — replace that file to change the logo. */
 function LogoMark() {
   return (
-    <span
+    <img
+      src="/L1.png"
+      alt=""
       aria-hidden="true"
-      className="flex h-9 w-9 items-center justify-center rounded-[10px] bg-gradient-to-br from-brand-400 to-brand-700 text-[15px] font-extrabold tracking-tight text-white shadow-[0_6px_18px_-6px_rgba(96,100,242,0.8)]"
-    >
-      U
-    </span>
+      width={36}
+      height={36}
+      decoding="async"
+      className="h-9 w-auto object-contain"
+    />
   );
 }
 
